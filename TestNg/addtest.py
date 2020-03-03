@@ -11,7 +11,7 @@ class AddTest(unittest.TestCase):
     def test_addition(self):
         self.assertEqual(addition(10,11,12),33)
         self.assertNotEqual(addition(11,12),44)
-
+        self.assertEqual((addition(10,10,10)),30)
     def tes_negative_value(self):
 
         self.assertEqual(addition(-9,25),16)
